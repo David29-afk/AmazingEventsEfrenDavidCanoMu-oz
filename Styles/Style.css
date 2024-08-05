@@ -35,11 +35,21 @@ height: 350px;
     height: 350px; 
 }
 
-.barbusqueda{
-    padding: 10px;
-    gap: 5px;
-    width: 600px;
-    
+.barbusqueda {
+    width: 100%; /* Asegura que la barra de búsqueda ocupe el ancho disponible dentro de su contenedor */
+    max-width: 300px; /* Ajusta este valor según el tamaño que desees para la barra de búsqueda */
+}
+
+/* Ajusta el contenedor de checkboxes */
+#contenedorcheck {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los checkboxes se envuelvan en nuevas líneas si es necesario */
+    gap: 10px; /* Espacio entre los checkboxes */
+}
+
+/* Opcional: Estilo para los checkboxes */
+.form-check {
+    margin-right: 10px; /* Espacio entre los checkboxes */
 }
 
 #imgbusqueda{
@@ -101,7 +111,7 @@ main{
 }
 
 .stats{
-    height: 140vh;
+    height: 130vh;
 }
 
 .targetImg{
@@ -122,22 +132,15 @@ table th, table td {
 .stats table {
     margin-bottom: 30px;
 }
-/* Estilos para filas de la tabla */
-.events-stats-row {
-    background-color: #1072d3;
-}
-.upcoming-events-row {
-    background-color: #d4edda;
-}
-.past-events-row {
-    background-color: #f8d7da;
-}
+
 /* Estilo para el encabezado */
 thead th {
-    background-color: #007bff;
-    color: white;
+    background-color: gold !important;
+    color: white !important;
 }
 
 .contendorTargetas{
     height: 100%;
 }
+
+
