@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#logo{
+    width: 100px;
+}
+
+
+#ban1{
+    object-fit: cover;
+height: 350px;
+}
+
+#ban2{
+    object-fit: cover;
+    height: 350px;
+}
+
+#ban3{
+    object-fit: cover;
+    height: 350px;
+}
+
+#ban4{
+    object-fit: cover;
+    height: 350px;
+}
+
+#ban5{
+    object-fit: cover;
+    height: 350px; 
+}
+
+.barbusqueda{
+    padding: 10px;
+    gap: 5px;
+    width: 600px;
+    
+}
+
+#imgbusqueda{
+    height: 15px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+  justify-content: center;
+}
+
+
+main{
+    background-color: blueviolet;
+    
+}
+
+#face{
+    height: 30px;
+}
+
+#wats{
+    height: 30px;
+}
+
+#insta{
+    height: 30px;
+}
+
+.cohort{
+    height: 30px;
+}
+
+.foot{
+    height: 60px;
+    margin: 0 15px 0 15px;
+}
+
+
+.formcontact{
+    
+    width: 550px;
+    margin: 10px;
+}
+
+
+#details1{
+    object-fit: cover;
+}
+
+.target{
+    width: 80vw;
+}
+
+.details{
+    height: 90vh;
+    padding: 65px 0 100px 0;
+}
+
+.stats{
+    height: 140vh;
+}
+
+.targetImg{
+    object-fit: cover;
+    height: 200px;
+}
+
+.filtro{
+    display: none;
+}
+
+table th, table td {
+    text-align: center;
+}
+.stats {
+    margin-top: 30px;
+}
+.stats table {
+    margin-bottom: 30px;
+}
+/* Estilos para filas de la tabla */
+.events-stats-row {
+    background-color: #1072d3;
+}
+.upcoming-events-row {
+    background-color: #d4edda;
+}
+.past-events-row {
+    background-color: #f8d7da;
+}
+/* Estilo para el encabezado */
+thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+.contendorTargetas{
+    height: 100%;
+}
