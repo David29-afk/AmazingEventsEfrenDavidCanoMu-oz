@@ -51,7 +51,7 @@ export function pintarCheckbox(eventos, callback) {
 
             checkboxDiv.innerHTML = `
                 <input class="form-check-input" type="checkbox" value="${evento.category}" id="checkbox-${evento.category}">
-                <label class="form-check-label" for="checkbox-${evento.category}">
+                <label class="form-check-label " for="checkbox-${evento.category}">
                     ${evento.category}
                 </label>
             `;
